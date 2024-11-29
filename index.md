@@ -1,9 +1,4 @@
-layout: default
----------------
-
 # Welcome to My Site
-
-Hello! This is my personal website using the Minimal theme.
 
 ## About Me
 
