@@ -1,5 +1,5 @@
-title: Yejun Homepage
-description: [A short description of your site's purpose]
+# title: Yejun Homepage
+# description: [A short description of your site's purpose]
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
