@@ -2,7 +2,7 @@
 
 ## About Me
 
-I'm passionate about technology and coding.
+I am a PhD candidate at the Aalto Vision Group at Aalto University, advised by Juho Kannala from April, 2024. My research interests include visual localization and 3D reconstruction. I received my MSc degree from Aalto University in Finland and my BEng degree from Northwestern Polytechnical UniversityNorthwest in China.
 
 ## Projects
 
@@ -11,25 +11,5 @@ I'm passionate about technology and coding.
 
 ## Contact
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [your-username](https://github.com/your-username)
-
----
-
-# Welcome to My Site
-
-Hello! This is my personal website using the Minimal theme.
-
-## About Me
-
-I'm passionate about technology and coding.
-
-## Projects
-
-- [Project One](/project-one)
-- [Project Two](/project-two)
-
-## Contact
-
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [your-username](https://github.com/your-username)
+- Email: yejun.zhang@aalto.fi
+- GitHub: [YejunZhang](https://github.com/YejunZhang)
