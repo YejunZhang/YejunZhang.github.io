@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">GeoMix teaser</title>
+  <desc id="desc">Descriptor-free localization with multi-detector geometry and global context.</desc>
+  <rect width="320" height="180" fill="#f7f7f7"/>
+  <g fill="none" stroke="#222" stroke-width="2">
+    <path d="M56 136 92 78 142 118 196 52 264 126"/>
+    <path d="M56 136 142 118 264 126"/>
+    <path d="M92 78 196 52"/>
+  </g>
+  <g fill="#ffffff" stroke="#222" stroke-width="2">
+    <circle cx="56" cy="136" r="9"/>
+    <circle cx="92" cy="78" r="9"/>
+    <circle cx="142" cy="118" r="9"/>
+    <circle cx="196" cy="52" r="9"/>
+    <circle cx="264" cy="126" r="9"/>
+  </g>
+  <g fill="#222">
+    <rect x="38" y="28" width="52" height="8"/>
+    <rect x="38" y="44" width="74" height="8"/>
+    <rect x="218" y="28" width="58" height="8"/>
+    <rect x="198" y="44" width="78" height="8"/>
+  </g>
+  <text x="160" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#444">global context + multi-detector geometry</text>
+</svg>

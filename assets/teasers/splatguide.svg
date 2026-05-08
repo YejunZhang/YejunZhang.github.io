@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">SplatGuide teaser</title>
+  <desc id="desc">3D Gaussian priors guide pose-free novel view synthesis.</desc>
+  <rect width="320" height="180" fill="#f7f7f7"/>
+  <g opacity="0.95">
+    <circle cx="105" cy="72" r="13" fill="#222"/>
+    <circle cx="132" cy="48" r="10" fill="#555"/>
+    <circle cx="154" cy="88" r="16" fill="#111"/>
+    <circle cx="185" cy="58" r="12" fill="#777"/>
+    <circle cx="204" cy="102" r="14" fill="#333"/>
+    <circle cx="132" cy="122" r="11" fill="#888"/>
+  </g>
+  <g fill="none" stroke="#222" stroke-width="2">
+    <path d="M55 135 C88 92 126 73 160 86 C196 100 226 92 265 48"/>
+    <path d="M66 40 108 72 68 106 Z"/>
+    <path d="M246 118 205 102 250 78 Z"/>
+  </g>
+  <g fill="#fff" stroke="#222" stroke-width="2">
+    <rect x="44" y="30" width="44" height="28"/>
+    <rect x="232" y="121" width="44" height="28"/>
+  </g>
+  <text x="160" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#444">3D Gaussian priors for pose-free NVS</text>
+</svg>

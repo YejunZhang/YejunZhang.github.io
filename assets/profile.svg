@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Yejun Zhang profile placeholder</title>
+  <desc id="desc">A geometric profile placeholder with the initials YZ.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d766e"/>
+      <stop offset="0.55" stop-color="#4b5aa8"/>
+      <stop offset="1" stop-color="#b8642b"/>
+    </linearGradient>
+    <linearGradient id="mesh" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="48" fill="#eef5f2"/>
+  <path d="M0 610 C130 560 178 420 304 432 C430 444 464 622 602 604 C688 594 734 528 800 518 L800 800 L0 800 Z" fill="#dff0ed"/>
+  <circle cx="625" cy="175" r="96" fill="#f2c28f" opacity="0.85"/>
+  <circle cx="224" cy="250" r="148" fill="url(#bg)"/>
+  <circle cx="224" cy="250" r="93" fill="url(#mesh)"/>
+  <path d="M184 470 L618 470" stroke="#1d2322" stroke-width="18" stroke-linecap="round" opacity="0.2"/>
+  <path d="M250 540 L550 540" stroke="#1d2322" stroke-width="18" stroke-linecap="round" opacity="0.14"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="170" font-weight="800" fill="#1d2322">YZ</text>
+</svg>
