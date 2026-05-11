@@ -3,132 +3,74 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Academic website for Yejun Zhang, Doctoral Student in Computer Science at Aalto University, focusing on 3D reconstruction, generation, and visual localization.">
-    <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Yejun Zhang">
-    <meta property="og:description" content="Doctoral Student in Computer Science at Aalto University. Research in 3D reconstruction, generation, and visual localization.">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <meta name="theme-color" content="#f7f7f4">
+    <meta property="og:title" content="Site temporarily offline">
+    <meta property="og:description" content="This homepage is temporarily offline.">
     <meta property="og:type" content="website">
-    <title>Yejun Zhang</title>
-    <link rel="icon" href="assets/profile.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260508-template">
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Yejun Zhang",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "Aalto University"
-        },
-        "email": "mailto:yejun.zhang@aalto.fi",
-        "sameAs": [
-          "https://scholar.google.com/citations?user=h1oeX_AAAAAJ&hl=en",
-          "https://github.com/YejunZhang"
-        ]
+    <title>Site Temporarily Offline</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f7f4;
+        --text: #20211f;
+        --muted: #62645f;
+        --line: #d8d9d2;
       }
-    </script>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(100% - 40px, 520px);
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+        padding: 40px 0;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .status {
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 12px 0 14px;
+        font-size: clamp(2rem, 5vw, 3.25rem);
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      .message {
+        max-width: 34rem;
+        color: var(--muted);
+        font-size: 1rem;
+        line-height: 1.65;
+      }
+    </style>
   </head>
   <body>
-    <main class="container" id="main">
-      <header class="hero" id="about">
-        <div class="hero-text">
-          <h1>Yejun Zhang</h1>
-          <p>
-            I am a Doctoral Student in Computer Science at Aalto University, Finland,
-            supervised by Prof. Juho Kannala and Prof. Esa Rahtu. My research focuses on
-            3D reconstruction and generation, and visual localization.
-          </p>
-          <p>
-            I work on geometry-aware visual systems for robust localization and novel view
-            synthesis, combining graph neural networks, geometric priors, and multi-view
-            learning.
-          </p>
-          <nav class="quick-links" aria-label="Profile links">
-            <a href="mailto:yejun.zhang@aalto.fi">Email</a>
-            <a href="assets/Yejun_CV.pdf">CV</a>
-            <a href="https://scholar.google.com/citations?user=h1oeX_AAAAAJ&hl=en">Google Scholar</a>
-            <a href="https://github.com/YejunZhang">GitHub</a>
-          </nav>
-        </div>
-      </header>
-
-      <section id="research" aria-labelledby="research-title">
-        <h2 id="research-title">Research</h2>
-        <div class="publications">
-          <article class="pub-card">
-            <a class="teaser" href="#geomix">
-              <img src="assets/teasers/geomix.svg" alt="GeoMix teaser diagram">
-            </a>
-            <div class="pub-info" id="geomix">
-              <h3>GeoMix: Descriptor-Free Visual Localization via Global Context and Multi-Detector Training</h3>
-              <p class="authors"><strong>Yejun Zhang</strong>, Xinjue Wang, Zihan Wang, Esa Rahtu, Juho Kannala</p>
-              <p class="venue">Under review, 2026</p>
-              <p class="links"><span>PDF coming soon</span> <span>code coming soon</span></p>
-              <p class="desc">
-                GeoMix is a descriptor-free visual localization framework with directional-distance
-                geometry embeddings, global context nodes, and multi-detector training.
-              </p>
-            </div>
-          </article>
-
-          <article class="pub-card">
-            <a class="teaser" href="#splatguide">
-              <img src="assets/teasers/splatguide.svg" alt="SplatGuide teaser diagram">
-            </a>
-            <div class="pub-info" id="splatguide">
-              <h3>SplatGuide: Geometric Priors from 3D Gaussians for Pose-Free Novel View Synthesis</h3>
-              <p class="authors"><strong>Yejun Zhang*</strong>, Zihan Wang*, Xu Ji*, Yihao Wang, Yuxin Hou, Junyuan Fang, Juho-Matti Kilpelainen, Arno Solin, Hamed Rezazadegan Tavakoli, Esa Rahtu, Juho Kannala</p>
-              <p class="venue">Under review, 2025</p>
-              <p class="links"><span>PDF coming soon</span> <span>code coming soon</span></p>
-              <p class="desc">
-                SplatGuide reuses a single 3D Gaussian scene for geometric conditioning,
-                occlusion-aware view selection, and feature-level guidance to a multi-view
-                diffusion model.
-              </p>
-            </div>
-          </article>
-
-          <article class="pub-card">
-            <a class="teaser" href="https://arxiv.org/pdf/2502.20036">
-              <img src="assets/teasers/a2gnn.svg" alt="A2-GNN teaser diagram">
-            </a>
-            <div class="pub-info">
-              <h3><a href="https://arxiv.org/pdf/2502.20036">A2-GNN: Angle-Annular GNN for Visual Descriptor-free Camera Relocalization</a></h3>
-              <p class="authors"><strong>Yejun Zhang</strong>, Shuzhe Wang, Juho Kannala</p>
-              <p class="venue">International Conference on 3D Vision (3DV), 2025</p>
-              <p class="links">
-                <a href="https://arxiv.org/pdf/2502.20036">paper</a>
-                <a href="https://github.com/YejunZhang/a2-gnn">code</a>
-              </p>
-              <p class="desc">
-                A2-GNN learns robust geometric structural representations with annular
-                neighbor clustering and distance-angle embeddings for descriptor-free camera
-                relocalization.
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="education" aria-labelledby="education-title">
-        <h2 id="education-title">Education</h2>
-        <ul class="plain-list">
-          <li><strong>Doctoral Student in Computer Science</strong>, Aalto University, 2024-present</li>
-          <li><strong>Master's Degree</strong>, Aalto University, 2021-2023</li>
-          <li><strong>Bachelor's Degree</strong>, Northwestern Polytechnical University, 2015-2019</li>
-        </ul>
-      </section>
-
-      <section id="skills" aria-labelledby="skills-title">
-        <h2 id="skills-title">Skills</h2>
-        <p>Python, C, SQL, PyTorch, OpenCV, LoRA/PEFT, Git, Linux, LaTeX.</p>
-      </section>
-
-      <footer>
-        <p>Inspired by the Jon Barron-style academic homepage template.</p>
-      </footer>
+    <main aria-labelledby="offline-title">
+      <p class="status">Offline</p>
+      <h1 id="offline-title">Site temporarily offline</h1>
+      <p class="message">This homepage is currently unavailable.</p>
     </main>
-
-    <script src="script.js?v=20260508-template"></script>
   </body>
 </html>
