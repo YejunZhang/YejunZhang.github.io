@@ -1,27 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
   <title id="title">A2-GNN teaser</title>
-  <desc id="desc">Angle-annular graph neural network for descriptor-free relocalization.</desc>
-  <rect width="320" height="180" fill="#f7f7f7"/>
-  <g transform="translate(116 90)" fill="none" stroke="#222">
-    <circle r="26" stroke-width="2"/>
-    <circle r="52" stroke-width="2"/>
-    <circle r="78" stroke-width="2"/>
-    <path d="M0 0 L76 -18" stroke-width="2"/>
-    <path d="M0 0 L40 65" stroke-width="2"/>
-    <path d="M0 0 L-62 48" stroke-width="2"/>
-    <path d="M0 0 L-50 -54" stroke-width="2"/>
+  <desc id="desc">Angle-annular graph neural network for descriptor-free camera relocalization.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfcfd"/>
+      <stop offset="1" stop-color="#eef5f8"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f80ed"/>
+      <stop offset="1" stop-color="#1b4db8"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38c2b4"/>
+      <stop offset="1" stop-color="#16877d"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#16324f" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="320" height="180" rx="0" fill="url(#bg)"/>
+
+  <g transform="translate(112 92)">
+    <path d="M0 0 L49 -33 A59 59 0 0 1 58 13 Z" fill="#fde68a" opacity="0.55"/>
+    <path d="M0 0 L-34 61 A71 71 0 0 1 -69 10 Z" fill="#ccfbf1" opacity="0.48"/>
+    <circle r="27" fill="none" stroke="#d5e0ea" stroke-width="2"/>
+    <circle r="53" fill="none" stroke="#c7d4e3" stroke-width="2"/>
+    <circle r="78" fill="none" stroke="#b8c8d9" stroke-width="2"/>
+    <circle r="78" fill="none" stroke="#2f80ed" stroke-width="2.5" stroke-dasharray="28 220" transform="rotate(-35)"/>
+    <circle r="53" fill="none" stroke="#38c2b4" stroke-width="2.5" stroke-dasharray="42 180" transform="rotate(66)"/>
+
+    <g fill="none" stroke="#38536b" stroke-width="2.2" stroke-linecap="round" opacity="0.68">
+      <path d="M0 0 L66 -20"/>
+      <path d="M0 0 L39 57"/>
+      <path d="M0 0 L-61 43"/>
+      <path d="M0 0 L-45 -57"/>
+      <path d="M66 -20 L39 57 L-61 43 L-45 -57 Z" opacity="0.42"/>
+    </g>
+
+    <g filter="url(#soft-shadow)">
+      <circle r="10" fill="url(#blue)" stroke="#ffffff" stroke-width="3"/>
+      <circle cx="66" cy="-20" r="8" fill="#ffffff" stroke="#2f80ed" stroke-width="2.5"/>
+      <circle cx="39" cy="57" r="8" fill="#ffffff" stroke="#38c2b4" stroke-width="2.5"/>
+      <circle cx="-61" cy="43" r="8" fill="#ffffff" stroke="#f59e0b" stroke-width="2.5"/>
+      <circle cx="-45" cy="-57" r="8" fill="#ffffff" stroke="#64748b" stroke-width="2.5"/>
+    </g>
   </g>
-  <g fill="#fff" stroke="#222" stroke-width="2">
-    <circle cx="116" cy="90" r="8"/>
-    <circle cx="192" cy="72" r="7"/>
-    <circle cx="156" cy="155" r="7"/>
-    <circle cx="54" cy="138" r="7"/>
-    <circle cx="66" cy="36" r="7"/>
+
+  <g fill="none" stroke="#8aa0b5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M201 90 H224"/>
+    <path d="M216 82 L224 90 L216 98"/>
   </g>
-  <g fill="#222">
-    <path d="M222 62 h50 v14 h-50z"/>
-    <path d="M222 86 h64 v14 h-64z"/>
-    <path d="M222 110 h38 v14 h-38z"/>
+
+  <g transform="translate(228 42)" filter="url(#soft-shadow)">
+    <rect x="0" y="0" width="58" height="24" rx="12" fill="#ffffff" stroke="#d7e1eb"/>
+    <rect x="12" y="8" width="34" height="8" rx="4" fill="url(#blue)"/>
+    <rect x="-10" y="38" width="78" height="26" rx="13" fill="#ffffff" stroke="#d7e1eb"/>
+    <circle cx="12" cy="51" r="5" fill="#2f80ed"/>
+    <circle cx="30" cy="51" r="5" fill="#38c2b4"/>
+    <circle cx="48" cy="51" r="5" fill="#f59e0b"/>
+    <rect x="0" y="78" width="58" height="24" rx="12" fill="#ffffff" stroke="#d7e1eb"/>
+    <rect x="12" y="86" width="34" height="8" rx="4" fill="url(#teal)"/>
   </g>
-  <text x="160" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#444">angle-annular GNN</text>
 </svg>
